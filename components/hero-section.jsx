@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -9,9 +10,19 @@ import { motion } from "framer-motion"
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-waafi-navy">
-      {/* Background pattern */}
+      {/* Background image */}
+      <Image
+        src="/images/hero-bg.jpg"
+        alt=""
+        fill
+        priority
+        className="object-cover opacity-25"
+        sizes="100vw"
+      />
+      {/* Overlays */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(56,189,248,0.12),transparent)]" />
+        <div className="absolute inset-0 bg-waafi-navy/60" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(56,189,248,0.15),transparent)]" />
         <div
           className="absolute inset-0 opacity-[0.03]"
           style={{
