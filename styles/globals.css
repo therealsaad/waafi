@@ -123,6 +123,7 @@
     @apply bg-background text-foreground;
   }
 }
+<<<<<<< HEAD
 
 /* Playable dot animation for interactive badge */
 @keyframes dotBounce {
@@ -148,3 +149,5 @@
 .interactive-play-btn {
   @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm bg-card/80 backdrop-blur-sm border border-border cursor-pointer transition-transform hover:scale-105;
 }
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a

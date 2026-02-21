@@ -16,14 +16,22 @@ const details = [
     lines: [
       "Office No.: CWS-2V-322433",
       "26th Floor, Amber Gem Tower",
+<<<<<<< HEAD
       " Sheikh Khalifa Street",
+=======
+      "Business District, Sheikh Khalifa Street",
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
       "Ajman, United Arab Emirates",
     ],
   },
   {
     icon: Clock,
     title: "Business Hours",
+<<<<<<< HEAD
     lines: ["Monday - Friday", "9:00 AM - 5:00 PM (GST)"],
+=======
+    lines: ["Sunday - Thursday", "9:00 AM - 6:00 PM (GST)"],
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
   },
 ]
 

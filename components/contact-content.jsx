@@ -20,8 +20,9 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@waafiassociates.com",
-    href: "mailto:info@waafiassociates.com",
+    value: "info@waafiassociates.com , waafiassociates@gmail.com ",
+    
+    href: "mailto:info@waafiassociates.com ,mailto:waafiassociates.com",
   },
   {
     icon: Clock,

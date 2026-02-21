@@ -1,7 +1,10 @@
 "use client"
 
 import Link from "next/link"
+<<<<<<< HEAD
 import Image from "next/image"
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
 import {
   Ruler,
   Code2,
@@ -17,7 +20,10 @@ import { AnimateIn, StaggerContainer, StaggerItem } from "@/components/animate-i
 const services = [
   {
     id: "interior-design",
+<<<<<<< HEAD
     image: "/images/service-interior-design.jpg",
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
     icon: Ruler,
     title: "Interior Design Engineering Consultancy",
     description:
@@ -34,7 +40,10 @@ const services = [
   {
     id: "software-development",
     icon: Code2,
+<<<<<<< HEAD
     image: "/images/service-software-dev.jpg",
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
     title: "Software Development & Engineering",
     description:
       "We design and deliver reliable software solutions aligned with business requirements, from custom applications to enterprise-grade systems.",
@@ -50,7 +59,10 @@ const services = [
   {
     id: "e-commerce",
     icon: ShoppingCart,
+<<<<<<< HEAD
     image: "/images/service-ecommerce.jpg",
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
     title: "E-commerce & Digital Commerce Solutions",
     description:
       "We enable businesses to establish and scale secure digital commerce platforms, from storefront design to payment gateway integration.",
@@ -66,7 +78,10 @@ const services = [
   {
     id: "cyber-security",
     icon: ShieldCheck,
+<<<<<<< HEAD
     image: "/images/service-cyber-security.jpg",
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
     title: "Cyber Security & Digital Risk Advisory",
     description:
       "We provide cyber security advisory services to strengthen digital resilience and protect organizations against evolving threats.",
@@ -82,7 +97,10 @@ const services = [
   {
     id: "it-consulting",
     icon: Monitor,
+<<<<<<< HEAD
     image: "/images/service-it-consulting.jpg",
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
     title: "IT & Digital Consulting",
     description:
       "Strategic advisory services supporting digital transformation initiatives and technology modernization across your organization.",
@@ -163,6 +181,7 @@ export function ServicesContent() {
                   delay={0.15}
                   className={index % 2 === 1 ? "lg:order-1" : ""}
                 >
+<<<<<<< HEAD
                   <div className="mb-6">
                     <div className="relative overflow-hidden rounded-xl aspect-[4/3]">
                       <Image
@@ -174,6 +193,8 @@ export function ServicesContent() {
                       />
                     </div>
                   </div>
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
                   <StaggerContainer className="glass-card rounded-xl p-7">
                     <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground mb-5">
                       Key Capabilities

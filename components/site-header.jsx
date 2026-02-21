@@ -44,6 +44,7 @@ export function SiteHeader() {
             W
           </div>
           <div className="flex flex-col">
+<<<<<<< HEAD
             <div className="relative inline-block">
               <span
                 className={cn(
@@ -61,6 +62,26 @@ export function SiteHeader() {
                 Where trust becomes actions
               </span>
             </div>
+=======
+            <span
+              className={cn(
+                "text-lg font-semibold tracking-tight leading-tight transition-colors",
+                scrolled ? "text-foreground" : "text-primary-foreground"
+              )}
+            >
+              Waafi Associates
+            </span>
+            <span
+              className={cn(
+                "text-[10px] tracking-widest uppercase transition-colors",
+                scrolled
+                  ? "text-muted-foreground"
+                  : "text-primary-foreground/70"
+              )}
+            >
+              LLC AFZ
+            </span>
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
           </div>
         </Link>
 

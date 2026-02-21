@@ -6,7 +6,10 @@ import { ArrowRight, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { AnimateIn } from "@/components/animate-in"
 import { motion } from "framer-motion"
+<<<<<<< HEAD
 import { InteractiveBadge } from "@/components/interactive-badge"
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
 
 export function HeroSection() {
   return (
@@ -34,11 +37,19 @@ export function HeroSection() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 py-32 text-center">
+<<<<<<< HEAD
           <AnimateIn delay={0.1}>
           <div className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/15 bg-primary-foreground/5 px-4 py-2 mb-8">
             <div className="h-1.5 w-1.5 rounded-full bg-waafi-teal animate-pulse" />
             <span className="text-xs font-small tracking-wider text-primary-foreground/70">
                 EMPOWERING COMMUNITIES THROUGH TRUSTED SERVICES
+=======
+        <AnimateIn delay={0.1}>
+          <div className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/15 bg-primary-foreground/5 px-4 py-2 mb-8">
+            <div className="h-1.5 w-1.5 rounded-full bg-waafi-teal animate-pulse" />
+            <span className="text-xs font-medium tracking-wider uppercase text-primary-foreground/70">
+              UAE-based Professional Services
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
             </span>
           </div>
         </AnimateIn>
@@ -83,9 +94,12 @@ export function HeroSection() {
                 Engage With Us
               </Button>
             </Link>
+<<<<<<< HEAD
             <div className="mt-3 sm:mt-0">
               <InteractiveBadge />
             </div>
+=======
+>>>>>>> 1fea388391f353f877825ecab5b5886437e5d20a
           </div>
         </AnimateIn>
 
