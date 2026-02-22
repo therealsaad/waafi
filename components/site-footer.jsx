@@ -95,10 +95,10 @@ export function SiteFooter() {
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-waafi-teal shrink-0" />
                 <a
-                  href="tel:+971556949498"
+                  href="tel:+971506867959"
                   className="text-sm text-primary-foreground/60 hover:text-waafi-teal transition-colors"
                 >
-                  +971 55 694 9498
+                  +971 506867959
                 </a>
               </div>
               <div className="flex items-center gap-3">
